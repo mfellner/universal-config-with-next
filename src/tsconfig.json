@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist",
+    "module": "commonjs",
+    "target": "es2017",
+    "moduleResolution": "Node",
+    "newLine": "LF",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "pretty": true,
+    "lib": ["dom", "es2017", "esnext.asynciterable"]
+  },
+  "include": ["./**/*"]
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "newLine": "LF",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "pretty": true,
+    "baseUrl": ".",
+    "lib": ["dom", "es2015", "es2016", "esnext.asynciterable"]
+  },
+  "exclude": ["node_modules", ".next", "out", "dist", "server/**/*"]
+}
